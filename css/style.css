@@ -408,7 +408,7 @@ header .inner-header ul button i{
 }
 @media(max-width:600px) {
     header .inner-header{
-        max-width: 460px;
+        max-width: 280px;
     }
     header ul{display:none;}
     .banner-part header .inner-header .menu{
@@ -426,22 +426,24 @@ header .inner-header ul button i{
     .banner-part .mywidth {
         height: 110px;
         width: 240px;
-        margin: 32vh auto;
+        margin: 14vh auto;
     }
     .banner-part .mywidth h1 {
-        font-size: 27px;
+        font-size: 20px;
     }
     .banner-part .mywidth h3 {
-        font-size: 15px;
+        font-size: 11px;
     }
     
     .banner-part .mywidth .tele{
         height: 60px;
         width: 170px;
-        margin: 55px auto auto auto;
+        margin: 41px auto auto auto;
     }
     .banner-part .mywidth .tele .width-pera {
-        font-size: 7px;}
+        font-size: 5px;}
+    .banner-part .mywidth .tele .number {
+        font-size: 8px;}
         
     
 }
