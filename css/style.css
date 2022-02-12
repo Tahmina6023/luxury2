@@ -30,7 +30,7 @@ header .inner-header ul{
     display: flex;
     padding-top: 10px;
 }
-header.menu{
+header .menu{
     display:none;
 }
 
