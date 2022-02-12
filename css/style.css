@@ -30,6 +30,9 @@ header .inner-header ul{
     display: flex;
     padding-top: 10px;
 }
+header.menu{
+    display:none;
+}
 
 header .inner-header ul li{
     list-style-type: none;
@@ -307,7 +310,16 @@ header .inner-header ul button i{
         text-transform: uppercase;
     }
         
-    
+    .banner-part header .inner-header .menu{
+        display: block;
+        font-size: 10px;
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Sintony', sans-serif;
+        font-size: 8px;
+        font-weight: 700px;
+        text-transform: uppercase;
+    }
 }
 /******************************media 425*************/
 @media(max-width:425px) {
@@ -316,6 +328,11 @@ header .inner-header ul button i{
         height: 80px;
         width: 200px;
         margin:21vh auto;
+    }
+     header .inner-header ul{
+        display: flex;
+        padding-top: 2px;
+        display: none;
     }
     .banner-part .mywidth h1{
         font-size:22px ;
@@ -334,6 +351,16 @@ header .inner-header ul button i{
         bottom: 0;
         left: 0;
         margin: 42px auto auto auto;
+    }
+    .banner-part header .inner-header .menu{
+        display: block;
+        font-size: 10px;
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Sintony', sans-serif;
+        font-size: 8px;
+        font-weight: 700px;
+        text-transform: uppercase;
     }
     
 }
@@ -357,7 +384,7 @@ header .inner-header ul button i{
         display: flex;
         justify-content: space-between;
     }
-    
+
 
     /*****************banner***************/
     .banner-part .mywidth{
@@ -383,7 +410,17 @@ header .inner-header ul button i{
     header .inner-header{
         max-width: 460px;
     }
-    
+    header ul{display:none;}
+    .banner-part header .inner-header .menu{
+        display: block;
+        font-size: 10px;
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Sintony', sans-serif;
+        font-size: 8px;
+        font-weight: 700px;
+        text-transform: uppercase;
+    }
 
     /*****************banner***************/
     .banner-part .mywidth {
